@@ -12,6 +12,7 @@ $active_page = "purchase"; // Set active page for menus
   <link rel='stylesheet' href='./styles/nav.css'>
 <!-- <script src="scripts/jquery-3.3.1.js" type="text/javascript"></script> -->
   <script src="scripts/jquery-3.3.1-min.js" type="text/javascript"></script>  <script src="./scripts/dropdown.js" type="text/javascript"></script>
+  <script src='./scripts/jquery.carouFredSel-6.2.1.js' type='text/javascript'></script>
 </head>
 <body>
   <header>
@@ -41,7 +42,7 @@ $active_page = "purchase"; // Set active page for menus
         <div style="width: 100%; height: 40px; display: inline-block; float: none; clear: both;">&nbsp;</div>
       </div>
       </section>
-    <?php include('./page-sections/portfolio-jump.php'); ?>
+      <?php include('./includes/carousel.php'); ?>
   <?php include('./includes/footer.php'); ?>
 
   </div>
