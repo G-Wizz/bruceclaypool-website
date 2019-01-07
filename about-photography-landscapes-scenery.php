@@ -25,9 +25,9 @@ $active_page = "about"; // Set active page for menus
      <section>
       <div class="page-content">
         <div id='left-column'>
-          <p>For more than 25 years <span class='standoutWords'>Bruce Claypool</span> has been exploring the American landscape camera in hand bringing back an immense body of work. Vivid colors, from the deserts of the southwest to the rocky coast of Maine, have been his theme and his passion.</p>
+          <p>For more than 25 years <span class='standoutWords'>Bruce Claypool</span> has been <span class='internal-links-style'>exploring the American landscape</span> camera in hand bringing back an immense body of work. Vivid colors, from the deserts of the southwest to the rocky coast of Maine, have been his theme and his passion.</p>
 
-          <p>At the same time another exploration has been taking place in the studio. This one involves extreme close ups of flowers and other natural objects.</p>
+          <p>At the same time another exploration has been taking place in the studio. This one involves <span class='internal-links-style'>extreme close ups of flowers and other natural objects</span>.</p>
 
           <p>But several things remain constant - purity of color and the beauty of nature. These are subjects that can take a life time to explore. And within these pages we hope to show you some of Bruce's thoughts on these ideas.</p>
         </div>

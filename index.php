@@ -36,20 +36,20 @@ $active_page = "home"; // Set active page for menus
     <section>
       
       <div id='left-column'>
-        <p>We're happy to welcome you to our virtual gallery! Inside these pages you can explore the works of <span class='standoutWords'>Bruce Claypool</span>, photographer. Please enjoy the experience of touring through our portfolios.</p>
+        <p>We're happy to welcome you to our virtual gallery! Inside these pages you can explore the works of <span class='standoutWords'>Bruce Claypool</span>, photographer. Please enjoy the experience of touring through <a href='lightbox-photography-portfolio.php'><span class='internal-links-style'>our portfolios</span></a>.</p>
 
-        <p><span class='standoutWords'>Bruce Claypool</span> has been exploring both photographic possibilities and the American countryside for over thirty years. During this time he has amassed an impressive body of work. Much of this is focused on his favorite subject: the American landscape, although you will find many examples of recent studio photos.</p>
+        <p><span class='standoutWords'>Bruce Claypool</span> has been exploring both photographic possibilities and the American countryside for over thirty years. During this time he has amassed an impressive body of work. Much of this is focused on his favorite subject: the American landscape, although you will find many <span class='internal-links-style'>examples of recent studio photos</span>.</p>
 
         <p>Come back and visit this site often. Bruce has been very busy with new works shot locally in New Jersey and with images taken during a recent shoot in the Outer Banks of North Carolina. New images will be posted as soon as they're available.</p>
 
-        <p>All photos shown within these pages are for sale. Please feel free to contact us for further information about adding anything you see to your collection, or just to let us know what you think. We look forward to hearing from you!</p>
+        <p><a href='purchase-photos.php'><span class='internal-links-style'>All photos shown within these pages are for sale</span></a>. Please feel free to contact us for further information about adding anything you see to your collection, or just to let us know what you think. We look forward to hearing from you!</p>
       </div>
     </section>
       <!-- // // -->
       <section>
       <div id='right-column'>
         <div ><p>We're happy to welcome you to our virtual gallery! Inside these pages you can explore the works of <span class='standoutWords'>Bruce Claypool</span>, photographer. Please enjoy the experience of touring through our portfolios.</p>
-        <p><span class='standoutWords'>Bruce Claypool</span> has been exploring both photographic possibilities and the American countryside for over thirty years. During this time he has amassed an impressive body of work. Much of this is focused on his favorite subject: the <a href='lightbox-photography-portfolio.php'>American landscape</a>, although you will find many examples of recent studio photos.</p>
+        <p><span class='standoutWords'>Bruce Claypool</span> has been exploring both photographic possibilities and the American countryside for over thirty years. During this time he has amassed an impressive body of work. Much of this is focused on his favorite subject: the <a href='lightbox-photography-portfolio.php'><span class='internal-links-style'>American landscape</span></a>, although you will find many examples of recent studio photos.</p>
         </div>
         <div style="padding-top: 35px;">
           <img src="images/home/misc007-home-side.jpg" max-width="240" height="360" class="imageShadow" alt=""/>

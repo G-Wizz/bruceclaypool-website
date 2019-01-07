@@ -297,14 +297,22 @@ h4 {
   border: 1px solid black;
   text-align: center;
   color: black;
-  background-color: rgb(199, 199, 199);
+  background-color: rgb(142, 142, 142);
+  text-shadow: 0 0 8px white;
   transform: skewX(-45deg);
   cursor: pointer;
+  transition-duration: 1s;
 }
 
 .text-reverse {
   text-align: center;
+  transition-duration: 1s;
   transform: skewX(45deg);
+}
+.text-reverse:hover {
+  color: white;
+  transform: skewX(-45deg);
+  
 }
 
 #contact-bruce:hover {
@@ -312,7 +320,8 @@ h4 {
   color: white;
   text-shadow: 0 0 10px white;
   transform: translateY(2px);
-  transform: skewX(-45deg);
+  /* transform: skewX(-45deg); */
+  transform: skewX(45deg);
 }
 
 #purchase-bruce {
@@ -323,9 +332,11 @@ h4 {
   border: 1px solid black;
   text-align: center;
   color: black;
-  background-color: rgb(199, 199, 199);
+  background-color: rgb(142, 142, 142);
+  text-shadow: 0 0 8px white;
   transform: skewX(-45deg);
   cursor: pointer;
+  transition-duration: 1s;
 }
 
 #purchase-bruce:hover {
@@ -333,7 +344,8 @@ h4 {
   color: white;
   text-shadow: 0 0 10px white;
   transform: translateY(2px);
-  transform: skewX(-45deg);
+  /* transform: skewX(-45deg); */
+  transform: skewX(45deg);
 }
 
 .buttonShadow {
@@ -341,6 +353,18 @@ h4 {
 }
 
 /* -------- END CALL TO ACTION STYLES ---------- */
+
+/* internal links styling */
+.internal-links-style {
+  text-decoration: none;
+  color: #D5D5D5;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.internal-links-style:hover {
+  text-shadow: 0 0 2px #ECECEC;
+}
 
 /* ****** IMAGE SLIDER AT BOTTOM OF PAGE ****** */
 #showPhotobox {
@@ -856,7 +880,6 @@ fieldset {
 /* **************** CAROUSEL AT BOTTOM OF PAGE ******************** */
 #wrapper {
   background-color: #999999;
-  /* border-top: 1px solid #ccc; */
   padding-top: 60px;
   width: 100%;
   height: 300px;
@@ -877,7 +900,7 @@ fieldset {
 }
 #carousel div img {
   border: none;
-  width: 100%;
+  width: 96%;
   height: auto;
 }
 #carousel div span {
@@ -919,6 +942,10 @@ fieldset {
 }
 
 /* ---------------------------------------------------------------- */
+
+h3 {
+  padding-top: 10px;
+}
 
 @-webkit-keyframes shine {
   from {

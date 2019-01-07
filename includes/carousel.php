@@ -15,7 +15,7 @@ $(function() {
    auto: {
      items: 1,
      easing: 'linear',
-     duration: 1250,
+     duration: 3000,
      timeoutDuration: 0
    },
    pagination: {
